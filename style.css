@@ -1,3 +1,7 @@
+.bb {
+  background-color: bisque;
+  height: 100vh;
+}
 .container {
   display: flex;
   flex-direction: column;
@@ -6,6 +10,22 @@
   font-size: 40px;
   text-align: center;
 }
+.video__inner {
+  /* margin-left: 200px; */
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
 .video {
-  margin-left: 480px;
+  max-width: 760px;
+  width: 100%;
+}
+.song__inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.title2 {
+  font-size: 35px;
+  text-align: center;
 }

@@ -1,18 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
-    <title>Document</title>
-</head>
-<body>
-    <div class="container">
-        <h1 class="title">Дивіться відео</h1>
-    <video  width="540"  height="340" controls loop class="video">
-        <source src="http://techslides.com/demos/sample-videos/small.mp4">
-    </video>
-</div>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Довготривалі штуки</title>
+  </head>
+  <body>
+    <section class="bb">
+      <div class="container">
+        <div class="video__inner">
+          <h1 class="title">Зирте відео</h1>
+          <video controls loop class="video" poster="./video_image/fon.jpg">
+            <source src="http://techslides.com/demos/sample-videos/small.mp4" />
+          </video>
+        </div>
+        <div class="song__inner">
+          <h2 class="title2">Слухайте ШЕДЕВР</h2>
+          <audio class="audio" src="./audio/song.mp3" controls></audio>
+        </div>
+      </div>
+    </section>
+  </body>
 </html>
